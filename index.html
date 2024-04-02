@@ -9,9 +9,13 @@
 <body>
   <!-- main container -->
   <div class="container">
-     <h1>BMI CALCULATOR</h1>
+     <h1>Body Mass Index Calculator</h1>
+      <div class="detail-container">
+      <p>Name</p>
+      <input type="text" class="input-name">
+    </div>
     <div class="height-container">
-      <p>Height(cm)</p>
+      <p>Height(m)</p>
       <input type="number" class="input-height">
     </div>
     <div class="weight-container">
@@ -20,7 +24,7 @@
     </div>
     <div class="result">
       <button class="btn">Calculate BMI</button>
-      <p>Result</p>
+      <p>Result: <span class="result-one"></span></p>
     </div>
   </div>
 
